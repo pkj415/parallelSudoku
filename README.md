@@ -1,5 +1,5 @@
 # parallelSudoku
-A parallel backtracking algorithm to solve a sudoku puzzle
+##A parallel backtracking algorithm to solve a sudoku puzzle
 
 The module is based on solving a sudoku puzzle using a randomized parallel algorithm which is based on the following paper - "Randomized Parallel Algorithms for Backtrack Search and Branch-and-Bound Computation" by RICHARD M. KARP and YANJUN ZHANG.
 
@@ -7,7 +7,7 @@ The module is a parallel program for hybrid systems i.e, mutli-core systems in a
 
 The deisgn of the algorithm was modified for the hybrid systems, though the overall idea is as described in the paper mentioned above.
 
-For detailed description of the module, view the design document provided above.
+For detailed description of the module, view the design document provided above. The design is based on Foster's deisgn methodology for designing parallel algorithms.
 
 Setup
 ------
