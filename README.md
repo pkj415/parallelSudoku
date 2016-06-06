@@ -14,7 +14,7 @@ For detailed description of the module, view the design document provided above.
 1. Run the `make` command on the command prompt.
 2. The files s1.txt, s2.txt and s3.txt contain sample sudoku puzzles. [0s in the text file represent missing values; s1 and s2 are 9x9 puzzles, s3 is a 16x16 puzzle] 
 3. The file name is mentioned in line number 422 of psudoku.c [Sorry for the hard-coding, you can change it]
-4. How to run - \[This might depend on your cluster configuration also\]
-   mpirun -n 4 ./psudoku [Will update the exact format for various possibilities later].
+4. How to run - [This might depend on your cluster configuration also]
+ mpirun -n 4 ./psudoku [Will update the exact format for various possibilities later].
 
 A similar algorithm can be developed for other backtracking search problems by necessary modifications. Examples? - The knight's tour problem, solving a prolog query, and many more.
