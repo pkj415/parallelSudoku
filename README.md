@@ -10,8 +10,7 @@ The deisgn of the algorithm was modified for the hybrid systems, though the over
 
 For detailed description of the module, view the design document provided above. The design is based on Foster's deisgn methodology for designing parallel algorithms.
 
-Setup
-------
+###Setup
 1. Run the `make` command on the command prompt.
 2. The files s1.txt, s2.txt and s3.txt contain sample sudoku puzzles. [0s in the text file represent missing values; s1 and s2 are 9x9 puzzles, s3 is a 16x16 puzzle] 
 3. The file name is mentioned in line number 422 of psudoku.c [Sorry for the hard-coding, you can change it]
