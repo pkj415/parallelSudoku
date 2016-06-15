@@ -6,9 +6,9 @@ The module is based on solving a sudoku puzzle using a **randomized parallel alg
 
 The module is a parallel program for hybrid systems i.e, mutli-core systems in a cluster. This requried the use of 2 libraries - **OpenMP**(within a node parallelism) and **MPI**(cluster level parallelism).
 
-The deisgn of the algorithm was modified for the hybrid systems, though the overall idea is as described in the paper mentioned above. The code for the knight's tour problem (similar to solving sudoku) mentioned in the design has not been uploaded.
+The design of the algorithm was modified for the hybrid systems, though the overall idea is as described in the paper mentioned above. The code for the knight's tour problem (similar to solving sudoku) mentioned in the design has not been uploaded.
 
-For detailed description of the module, view the design document provided above. The design is based on Foster's deisgn methodology for designing parallel algorithms.
+For detailed description of the module, view the design document provided above. The design is based on Foster's design methodology for designing parallel algorithms.
 
 ###Setup
 1. Run the `make` command on the command prompt.
