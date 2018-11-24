@@ -4,7 +4,7 @@
 ###About
 The module is based on solving a sudoku puzzle using a **randomized parallel algorithm** which is based on the following paper - **"Randomized Parallel Algorithms for Backtrack Search and Branch-and-Bound Computation" by RICHARD M. KARP and YANJUN ZHANG**.
 
-The module is a parallel program for hybrid systems i.e, mutli-core systems in a cluster. This requried the use of 2 libraries - **OpenMP**(within a node parallelism) and **MPI**(cluster level parallelism).
+The module is a parallel program for hybrid systems i.e, mutli-core systems in a cluster. This requried the use of 2 libraries - **pthread**(within a node parallelism) and **OpenMPI**(cluster level parallelism).
 
 The design of the algorithm was modified for the hybrid systems, though the overall idea is as described in the paper mentioned above. The code for the knight's tour problem (similar to solving sudoku) mentioned in the design has not been uploaded.
 
